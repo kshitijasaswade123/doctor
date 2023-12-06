@@ -1,0 +1,140 @@
+* {
+    margin     : 0;
+    padding    : 0;
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+    padding        : 1rem;
+
+}
+
+nav h1 {
+    font-size: large;
+    font-size: 2rem;
+}
+
+nav h1 span {
+    color: rgba(10, 161, 211, 0.942);
+
+}
+
+
+nav a {
+    text-decoration: none;
+    padding        : 1rem;
+    color          : black;
+    font-size      : larger;
+}
+
+#slider {
+    background-image   : url("https://wpthemesgrid.com/themes/mediplus/img/slider.jpg");
+    display            : cover;
+    background-position: center;
+    height             : 100vh;
+    text-align         : center;
+    display            : flex;
+    align-items        : center;
+    padding-left       : 3rem;
+
+}
+
+.mainHead {
+    color      : #2C2D3F;
+    font-size  : 38px;
+    font-weight: 900;
+    margin     : 0;
+    padding    : 0;
+    line-height: 42px;
+}
+
+.mainHead span {
+    color: #1a76d1;
+}
+
+#info {
+    display       : flex;
+    flex-direction: column;
+}
+
+#info .row {
+    display        : flex;
+    justify-content: center;
+}
+
+#info .row .card {
+    padding         : 30px;
+    width           : 250px;
+    margin          : 0 20px;
+    background-color: #007bff;
+    position        : relative;
+    bottom          : 80px;
+    border-radius   : 5px;
+    font-family     : sans-serif;
+    color           : #fff;
+}
+
+.card h4 {
+    font-size     : 20px;
+    font-weight   : 600;
+    display       : inline-block;
+    text-transform: capitalize;
+    color         : #fff;
+    margin-top    : 13px;
+}
+
+.card span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color     : #fff;
+    margin-top: 22px;
+}
+
+.heading {
+    text-align   : center;
+    font-size    : 32px;
+    margin-bottom: 32px;
+}
+
+.icon {
+    margin : 0 auto;
+    display: flex;
+}
+
+.para {
+    text-align: center;
+    font-size : 15px;
+    color     : #888;
+    margin-top: 15px;
+
+}
+#icons .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.features  {
+    font-family     : sans-serif;
+    width: 250px;
+    margin: 0 100px;
+    padding: 50px 0;
+    align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.featuresicon  {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin-bottom: 40px;
+
+}
+
